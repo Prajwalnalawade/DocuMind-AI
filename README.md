@@ -174,71 +174,7 @@ DocuMind AI follows a modular/layered architecture.
                   │ Business Rule Engine│
                   └─────────────────────┘
 
-📁 Project Structure
-DocuMind AI/
-│
-├── backend/
-│   │
-│   ├── app/
-│   │   │
-│   │   ├── api/
-│   │   │   └── routes/
-│   │   │       └── document_routes.py
-│   │   │
-│   │   ├── core/
-│   │   │   └── config.py
-│   │   │
-│   │   ├── domain/
-│   │   │
-│   │   ├── infrastructure/
-│   │   │   ├── document_processing/
-│   │   │   │   └── pdf_parser.py
-│   │   │   │
-│   │   │   └── llm/
-│   │   │       ├── llm_client.py
-│   │   │       └── prompts.py
-│   │   │
-│   │   ├── repositories/
-│   │   │
-│   │   ├── schemas/
-│   │   │   ├── document_schema.py
-│   │   │   ├── extraction_schema.py
-│   │   │   ├── validation_schema.py
-│   │   │   └── summary_schema.py
-│   │   │
-│   │   ├── services/
-│   │   │   ├── document_service.py
-│   │   │   ├── document_processing_service.py
-│   │   │   ├── extraction_service.py
-│   │   │   ├── validation_service.py
-│   │   │   ├── summary_service.py
-│   │   │   └── ocr_service.py
-│   │   │
-│   │   ├── utils/
-│   │   │
-│   │   └── main.py
-│   │
-│   ├── tests/
-│   ├── uploads/
-│   ├── requirements.txt
-│   ├── .env.example
-│   └── .env
-│
-├── frontend/
-│   └── src/
-│       ├── pages/
-│       │   ├── Dashboard.jsx
-│       │   └── UploadDocument.jsx
-│       │
-│       ├── services/
-│       │   ├── api.js
-│       │   └── documentService.js
-│       │
-│       └── ...
-│
-├── .gitignore
-├── docker-compose.yml
-└── README.md
+
 
 🔤 Tesseract OCR Setup
 
