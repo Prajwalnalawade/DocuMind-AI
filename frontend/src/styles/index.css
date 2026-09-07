@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #1f2937;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #4b5563;
+}
+
+.nav-links a:hover {
+  color: #111827;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.dashboard h1 {
+  margin-bottom: 8px;
+}
+
+.status-card {
+  margin-top: 32px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  max-width: 500px;
+}
+
+.status-card strong {
+  color: #15803d;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.upload-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.upload-card {
+  margin-top: 32px;
+  padding: 32px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
+
+.file-input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-weight: 600;
+}
+
+.file-input-label input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.selected-file {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 10px;
+}
+
+.selected-file p {
+  margin: 8px 0;
+}
+
+.upload-button {
+  margin-top: 24px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background: #374151;
+}
+
+.upload-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.upload-error {
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+.upload-success {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f0fdf4;
+  color: #166534;
+}
+
+.upload-success p {
+  margin: 8px 0;
+}
